@@ -35,7 +35,6 @@ nav li{
     list-style-type: none;
     display: inline-block;
     padding: 5px 5px;
-    margin-left: 0px;
 }
 
 nav a{
@@ -59,18 +58,19 @@ main p{
     text-align: justify;
 }
 
-.more-articles h4{
-    font-family: 'Roboto Slab'; 
+.more-articles{
+    display: inline-flex;
+    border-top: 1px solid #777;
+    text-align: center;
+    padding: auto;
+    margin: auto;
 }
 
 .more-articles p{
     text-align: justify;
-    width: 50%;
-    display: inline-block;
+    padding: 10px;
 }
 
-.article{
-    display: inline-block;
+.more-articles h4{
+    font-family: 'Roboto Slab'; 
 }
-
-
