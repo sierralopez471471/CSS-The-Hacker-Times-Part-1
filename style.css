@@ -25,22 +25,17 @@ header h1{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-nav{
-    width: 100%;
-    text-align: center;
-}
-
 nav ul{
-    list-style-type: none;
     text-align: center;
     border-bottom: 1px solid lightgrey;
     border-top: 1px solid lightgrey;
 }
 
 nav li{
-    display: inline-block;
     list-style-type: none;
+    display: inline-block;
     padding: 5px 5px;
+    margin-left: 0px;
 }
 
 nav a{
@@ -60,16 +55,22 @@ main img{
     width: 100%;
 }
 
+main p{
+    text-align: justify;
+}
+
 .more-articles h4{
     font-family: 'Roboto Slab'; 
 }
 
-.more-articles{
+.more-articles p{
+    text-align: justify;
+    width: 50%;
     display: inline-block;
 }
 
-section{
-    width: 50%;
+.article{
+    display: inline-block;
 }
 
 
