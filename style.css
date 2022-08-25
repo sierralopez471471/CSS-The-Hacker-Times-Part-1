@@ -25,6 +25,12 @@ header h1{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
 nav ul{
     text-align: center;
     border-bottom: 1px solid lightgrey;
